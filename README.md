@@ -1,0 +1,2 @@
+- docker build -t maithanhson/demo-k8s:category_image .
+- docker push maithanhson/demo-k8s:category_image 

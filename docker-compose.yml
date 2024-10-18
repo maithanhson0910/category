@@ -1,0 +1,6 @@
+version: '3.7'
+services:
+  category:
+    image: maithanhson/demo-k8s:category_image
+    ports:
+      - "8081:8080"
