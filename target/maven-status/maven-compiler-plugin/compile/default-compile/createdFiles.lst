@@ -1,2 +1,4 @@
-vnpt\demo\category\CategoryApplication.class
+vnpt\demo\category\repository\CategoryRepository.class
 vnpt\demo\category\controller\CategoryController.class
+vnpt\demo\category\model\Category.class
+vnpt\demo\category\CategoryApplication.class
