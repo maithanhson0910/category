@@ -21,6 +21,11 @@ public class CategoryController {
         return repository.findById(id);
     }
 
+    @GetMapping("/category")
+    public Object list() {
+        return repository.findAll();
+    }
+
     @PostMapping("/category")
     public Object create(@RequestBody Category category) {
         return repository.save(category);
